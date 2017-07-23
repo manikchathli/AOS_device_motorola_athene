@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/aos/config/common.mk)
+# Inherit some common AOS stuff.
+$(call inherit-product, vendor/aos/config/common_full_phone.mk)
 
 $(call inherit-product, device/motorola/athene/full_athene.mk)
 
