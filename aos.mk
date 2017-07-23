@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aos/config/commone.mk)
+$(call inherit-product, vendor/aos/config/common.mk)
 
 $(call inherit-product, device/motorola/athene/full_athene.mk)
 
